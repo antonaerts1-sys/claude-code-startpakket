@@ -217,7 +217,7 @@
     // label begint met "n:" (nieuw) of "b:" (bijgewerkt) of "-:" (neutraal grijs)
     var rows = [
       [0, true,  'jouw-project', ['', '', '', '']],
-      [1, false, 'CLAUDE.md', ['n:aangemaakt na een kort interview', 'b:beslissing B1 erbij, status mee', 'b:status bijgewerkt', '-:Claude leest dit en is meteen mee']],
+      [1, false, 'CLAUDE.md', ['n:aangemaakt terwijl je werkt', 'b:beslissing B1 erbij, status mee', 'b:status bijgewerkt', '-:Claude leest dit en is meteen mee']],
       [1, true,  'docs', ['', '', '', '']],
       [2, true,  'bronnen', ['n:nog leeg, staat klaar', '', '', '']],
       [3, false, '2026-08-14-gesprek-lieve.md', [null, 'n:jouw geplakte transcript, bevroren', '', '']],
@@ -227,7 +227,7 @@
       [1, true,  'prototype', [null, null, 'n:je eigen werk begint', '']]
     ];
     var descs = [
-      'Claude stelt je een paar vragen (wat is het project, wat is al beslist, wat zijn de valkuilen) en zet de structuur op. Twintig minuten, eenmalig.',
+      'Je begint gewoon te werken. Zodra het gesprek iets oplevert dat bewaard moet blijven (wat het project is, een eerste beslissing), zet Claude de structuur neer. Jij merkt er amper iets van.',
       '<em>Jij plakt het transcript van het gesprek met Lieve.</em> Claude bergt het ongewijzigd op met datum in de naam, zet er takeaways naast en noteert de eerste beslissing in CLAUDE.md.',
       'Het echte werk: een eerste prototype. Onderweg duikt een vraag op die niemand kan beantwoorden; die krijgt een vast nummer in plaats van verloren te gaan.',
       '<em>Je bent zes weken met andere dingen bezig geweest.</em> Je opent Claude Code en pikt gewoon terug in: geen aanloop, geen heruitleg. Alles staat er nog.'
@@ -283,16 +283,16 @@
   <section>
     <p class="sec-label">Aan de slag</p>
     <h2>Drie stappen, geen leeswerk</h2>
-    <p>Je hoeft het pakket niet te lezen, en zelfs niet uit te pakken. Claude doet het voor je.</p>
+    <p>Je hoeft het pakket niet te lezen, niet uit te pakken en niks in te stellen.</p>
     <p><a class="knop" href="https://github.com/antonaerts1-sys/claude-code-startpakket/archive/refs/heads/main.zip">Download het startpakket (ZIP)</a></p>
     <ol class="stappen">
-      <li>Open Claude Code in de map van je eigen project. Eén map per project.</li>
+      <li>Open Claude Code.</li>
       <li>Sleep de ZIP in het gesprek.</li>
       <li>Zeg tegen Claude:
-        <p class="zeg">Zet dit project op volgens dit startpakket.</p>
+        <p class="zeg">Installeer dit startpakket.</p>
       </li>
     </ol>
-    <p style="margin-top:24px">Claude stelt je dan een paar vragen (wat is het project, wat is al beslist, wat zou een buitenstaander fout begrijpen) en maakt de bestanden zelf aan. Bij een eenmalige klus zegt Claude eerlijk dat dit overbodig is en werkt gewoon.</p>
+    <p style="margin-top:24px">Claude legt kort uit wat het is, jij zegt ja, en dat was het. Geen vragenlijst, geen setup per project: vanaf dan werk je gewoon, en Claude legt ondertussen vast wat het project moet onthouden. Bij een eenmalige klus doet hij niks; structuur komt alleen waar ze iets oplevert.</p>
   </section>
 
   <section>
@@ -347,9 +347,9 @@
       <div class="map-row l1"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 1.5h5.5L12.5 5v9.5h-8.5v-13z"/><path d="M9.5 1.5V5H12.5"/></svg><span class="map-naam">index.html</span><span class="map-uitleg">deze uitlegpagina</span></div>
       <div class="map-row l1 dir"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1.5 4a1 1 0 0 1 1-1h3l1.5 1.8h6.5a1 1 0 0 1 1 1V12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V4z"/></svg><span class="map-naam">sjablonen</span><span class="map-uitleg">CLAUDE.md, log, bronnen-leesmij</span></div>
       <div class="map-row l1 dir"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1.5 4a1 1 0 0 1 1-1h3l1.5 1.8h6.5a1 1 0 0 1 1 1V12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V4z"/></svg><span class="map-naam">voorbeeld</span><span class="map-uitleg">een fictief project, volledig opgezet</span></div>
-      <div class="map-row l1 dir"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1.5 4a1 1 0 0 1 1-1h3l1.5 1.8h6.5a1 1 0 0 1 1 1V12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V4z"/></svg><span class="map-naam">skill</span><span class="map-uitleg">voor wie blijft: Claude biedt aan dit vast te installeren</span></div>
+      <div class="map-row l1 dir"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1.5 4a1 1 0 0 1 1-1h3l1.5 1.8h6.5a1 1 0 0 1 1 1V12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V4z"/></svg><span class="map-naam">skill</span><span class="map-uitleg">wat er geïnstalleerd wordt: de werkwijze plus sjablonen</span></div>
     </div>
-    <p style="margin-top:24px; margin-bottom:0">Bij het opzetten vraagt Claude meteen of je dit vast wil installeren als skill. Zeg je ja, dan heb je de ZIP daarna niet meer nodig: bij elk volgend project herkent Claude vanzelf wanneer het tijd is voor deze structuur. Weggooien kan altijd, en al opgezette projecten blijven dan gewoon werken.</p>
+    <p style="margin-top:24px; margin-bottom:0">De ZIP is alleen de installatie: één keer erin slepen, ja zeggen, en de aanpak zit vast in Claude Code. Daarna heb je hem niet meer nodig. Weggooien kan ook altijd; projecten die al een geheugen hebben blijven dan gewoon werken.</p>
   </section>
 
   <footer>

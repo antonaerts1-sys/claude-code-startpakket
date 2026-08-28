@@ -1,20 +1,17 @@
 # Startpakket voor Claude Code
 
-Je hoeft dit pakket niet te lezen, en zelfs niet uit te pakken. Claude doet het voor je.
+Je hoeft dit pakket niet te lezen, niet uit te pakken en niks in te stellen.
 
-1. Open Claude Code in de map van je eigen project. Heb je nog geen projectmap,
-   maak er dan een aan. Eén map per project.
+1. Open Claude Code.
 2. Sleep deze ZIP in het gesprek.
-3. Zeg tegen Claude:
+3. Zeg: "Installeer dit startpakket."
 
-   > Zet dit project op volgens dit startpakket.
+Claude legt kort uit wat het is, jij zegt ja, klaar. Vanaf dan krijgen je projecten
+vanzelf een geheugen: beslissingen, bronnen en status worden bewaard terwijl je gewoon
+werkt, en je legt nooit meer twee keer hetzelfde uit. Er komt geen vragenlijst en geen
+setup per project.
 
-Claude pakt de ZIP zelf uit, stelt je een paar vragen over je project (wie, wat, wat is
-al beslist) en zet alles op. Vanaf dan onthoudt je project wat jij anders elke keer
-opnieuw moest uitleggen.
-
-Claude vraagt bij het opzetten meteen of je dit vast wil installeren; zeg je ja,
-dan werkt de aanpak voortaan vanzelf bij elk project en heb je de ZIP niet meer nodig.
+Weggooien kan altijd; projecten die al een geheugen hebben blijven dan gewoon werken.
 
 Wil je toch weten hoe het werkt: lees `gewoontes.md` (vijf minuten) en kijk in
-`voorbeeld/` hoe een opgezet project er uitziet. Nodig is het niet.
+`voorbeeld/` hoe een project met geheugen er uitziet. Nodig is het niet.

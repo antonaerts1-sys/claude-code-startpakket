@@ -36,6 +36,10 @@
     background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:1px 5px;
   }
   a{color:var(--accent)}
+  .knop{
+    display:inline-block; background:var(--accent); color:#FFFFFF; text-decoration:none;
+    border-radius:8px; padding:10px 20px; font-size:15px; font-weight:500; margin-top:8px;
+  }
   :focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
   /* hero-demo: chat vervaagt, bestand blijft */
@@ -280,6 +284,7 @@
     <p class="sec-label">Aan de slag</p>
     <h2>Drie stappen, geen leeswerk</h2>
     <p>Je hoeft het pakket niet te lezen, en zelfs niet uit te pakken. Claude doet het voor je.</p>
+    <p><a class="knop" href="https://github.com/antonaerts1-sys/claude-code-startpakket/archive/refs/heads/main.zip">Download het startpakket (ZIP)</a></p>
     <ol class="stappen">
       <li>Open Claude Code in de map van je eigen project. Eén map per project.</li>
       <li>Sleep de ZIP in het gesprek.</li>

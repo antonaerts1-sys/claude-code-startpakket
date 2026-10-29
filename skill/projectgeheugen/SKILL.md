@@ -48,6 +48,11 @@ vandaan kwam.
    en log in één beweging bijwerken.
 7. Orde signaleren, nooit zelf verplaatsen: stapelen losse werkbestanden zich op,
    stel één keer een mapje voor; verplaats pas na een ja, en werk dan de leesroute bij.
+8. Nieuwe taak, nieuw gesprek: begint de gebruiker in een lang gesprek aan een andere
+   taak, doe dan eerst het afsluitritueel en stel daarna voor om een nieuw gesprek te
+   starten (`/clear`). Leg in één zin uit waarom: een lang gesprek met taken door
+   elkaar maakt Claude slordiger, en er gaat niets verloren omdat alles in de map
+   staat. Eén keer voorstellen, niet aandringen.
 
 ## Bestaand project: instappen, niet verbouwen
 

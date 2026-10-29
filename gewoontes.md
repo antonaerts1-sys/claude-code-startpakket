@@ -40,6 +40,10 @@ aanwijzen.
 5. Observatie gescheiden van interpretatie, met bron; gaten expliciet benoemen.
 6. Afsluitritueel: aan het eind van elke sessie actualiseert Claude status, beslissingen,
    open vragen en log in één beweging.
+7. Nieuwe taak, nieuw gesprek: begin je in een lang gesprek aan iets anders, dan werkt
+   Claude eerst alles bij en stelt voor om opnieuw te beginnen. Een lang gesprek met
+   taken door elkaar maakt Claude slordiger; omdat alles in de map staat, gaat er
+   niets verloren.
 
 ## Wanneer je dit niet gebruikt
 

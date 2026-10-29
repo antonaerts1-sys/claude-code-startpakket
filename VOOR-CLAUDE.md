@@ -37,7 +37,8 @@ zonder ja.
    Pas in elke projectmap de projectgeheugen-werkwijze toe, ongevraagd en zonder
    setup: geplakt bronmateriaal eerst gedateerd opslaan in docs/bronnen/, een
    CLAUDE.md die status en beslissingen bijhoudt, één logregel per werksessie
-   (append-only), takeaways naast lange bronnen. Volledige werkwijze:
+   (append-only), takeaways naast lange bronnen. Nieuwe taak in een lang gesprek:
+   eerst alles bijwerken, dan een nieuw gesprek voorstellen. Volledige werkwijze:
    ~/.claude/skills/projectgeheugen/SKILL.md. Niet bij eenmalige klussen.
    ```
 

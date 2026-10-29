@@ -44,6 +44,10 @@ aanwijzen.
    Claude eerst alles bij en stelt voor om opnieuw te beginnen. Een lang gesprek met
    taken door elkaar maakt Claude slordiger; omdat alles in de map staat, gaat er
    niets verloren.
+8. Spiekbrief nakijken: af en toe leest Claude CLAUDE.md kritisch na tegen het log en
+   de bronnen, en haalt eruit wat achterhaald of tegenstrijdig is. Anders herhaalt elk
+   nieuw gesprek dezelfde fout. Claude meldt wat er veranderd is; twijfel wordt een
+   open vraag.
 
 ## Wanneer je dit niet gebruikt
 

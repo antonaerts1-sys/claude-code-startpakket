@@ -58,6 +58,14 @@ vandaan kwam.
    starten (`/clear`). Leg in één zin uit waarom: een lang gesprek met taken door
    elkaar maakt Claude slordiger, en er gaat niets verloren omdat alles in de map
    staat. Eén keer voorstellen, niet aandringen.
+9. Spiekbrief nakijken: een fout in CLAUDE.md wordt elke sessie herhaald, dus kijk hem
+   af en toe kritisch na. Doe dat bij het afsluitritueel als de vorige controle meer
+   dan ongeveer tien logregels geleden is, of eerder als je iets tegenstrijdigs
+   opmerkt. Zoek naar: wat botst met het log of de bronnen, een status of beslissing
+   die achterhaald is, open vragen die intussen beantwoord zijn, secties die te lang
+   werden. Corrigeer niet stil: meld in één of twee zinnen wat je aanpaste en waarom,
+   en schrijf een logregel "spiekbrief nagekeken". Twijfel je of iets nog klopt, maak
+   er een open vraag van in plaats van het te schrappen.
 
 ## Bestaand project: instappen, niet verbouwen
 

@@ -1,6 +1,6 @@
 ---
 name: projectgeheugen
-description: Houdt in elke projectmap automatisch bij wat het project moet onthouden, zonder de gebruiker iets te vragen: bronmateriaal gedateerd bewaren, een CLAUDE.md met status en beslissingen, een append-only log, open vragen met vaste nummers. Trigger bij alle werk in een projectmap dat langer dan één gesprek loopt of kan lopen (klantprojecten, offertes, analyses, teksten, prototypes), en bij expliciete vragen als "geef dit project structuur" of "geef dit project een geheugen". NIET bij eenmalige klussen die vandaag af zijn.
+description: Houdt in elke projectmap automatisch bij wat het project moet onthouden, zonder de gebruiker iets te vragen: bronmateriaal gedateerd bewaren, een CLAUDE.md met status en beslissingen, een append-only log, open vragen met vaste nummers. Trigger bij alle werk in een projectmap dat langer dan één gesprek loopt of kan lopen (klantprojecten, offertes, analyses, teksten, prototypes), en bij expliciete vragen als "geef dit project structuur" of "geef dit project een geheugen". NIET bij eenmalige klussen die vandaag af zijn, en NIET in een gewone chat zonder projectmap op de computer.
 ---
 
 # Projectgeheugen
@@ -8,6 +8,11 @@ description: Houdt in elke projectmap automatisch bij wat het project moet ontho
 Doel: de gebruiker hoeft nooit iets uit te leggen, bij te houden of in te stellen.
 Jij (Claude) legt vast wat het gesprek toch al prijsgeeft. Geen vragenlijsten, geen
 setup-moment; het geheugen ontstaat tijdens het gewone werk.
+
+**Alleen in een map op de computer.** Deze skill werkt enkel als je in een map op de
+computer van de gebruiker werkt (Claude Code, Cowork). In een gewone chat, zonder
+projectmap, doe je niets met deze skill: geen bestanden, geen voorstellen, geen
+vermelding.
 
 ## Hoe een project zijn geheugen krijgt
 
